@@ -1,0 +1,19 @@
+name: assets
+id: ari:cloud:compass:61e0e9d3-6963-46ed-a4a1-1ef02e498ef1:component/b551773f-16f6-42cb-96a1-07563d63d478/589e07c6-386d-4577-ad60-c61ddd9b860e
+description: A place to store public assets
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/leisurepassgroup/assets
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: API Docs Path
+    type: text
+    value: null
